@@ -1,11 +1,11 @@
 package maze;
 
 public class Position {
-	public int x;
 	public int y;
+	public int x;
 	
-	public Position(int x, int y) {
-		this.x = x;
+	public Position(int y, int x) {
 		this.y = y;
+		this.x = x;
 	}
 }
